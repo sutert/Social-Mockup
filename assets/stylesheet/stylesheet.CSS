@@ -1,0 +1,62 @@
+* {box-sizing: border-box;}
+
+body {background-color: rgb(216, 211, 211)}
+
+header {height:400px;}
+
+#WhiteBox {
+    background-color: white;
+    width: 850px;
+    height:10%;
+    margin: 0 auto;
+    }
+
+#BlueBox {
+    background-color: #00308F;
+    height: 40%;
+    width: 850px;
+    margin:0 auto;
+    }
+
+#PhotoBox {
+    background-color: #00308F;
+    border: 1px solid black;
+    width: 130px;
+    height: 130px;
+    position: Relative;
+    top: 50px;
+    left: 10px;
+    }
+
+#HeaderText {
+    color:white;
+    font: arial;
+    font-size: 12px;
+    position:relative;
+    left: 170px;
+    bottom: 50px;
+    line-height:0.9em;
+    }
+
+#navlist {
+    margin: 0;
+    padding: 0;
+    display: inline;
+    position: relative;
+    left: 200px;
+    }
+
+#navlist li {
+    display: inline;
+    padding-right:8px;
+    border-right: 1px solid lightgray;
+    }
+
+#navlist li:last-child {
+    border-right: 0;
+    }
+
+#navlist li:first-child {
+    font-weight: bold;
+    border-right: 0;
+    }
