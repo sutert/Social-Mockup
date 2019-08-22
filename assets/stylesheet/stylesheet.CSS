@@ -60,3 +60,12 @@ header {height:400px;}
     font-weight: bold;
     border-right: 0;
     }
+
+#ButtonBar {
+    height: 20px;
+    width: 100px;
+    border: 1px solid black;
+    position: relative;
+    bottom: 70px;
+    left: 775px;
+    }
