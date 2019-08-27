@@ -87,6 +87,26 @@ header {height:400px;}
 #RightColumn {
     width: 512px;
     background-color: white;
-    height:100px;
+    height:300px;
     float: right;
     }
+
+h4{ 
+    position: relative;
+    bottom:15px;
+    }
+ img {
+    position: relative;
+    top: 75px;
+    left: 3px;
+    }
+
+#image{ 
+    position: relative;
+    left: 25px;
+    }
+
+#caracal{
+    position: relative;
+    bottom: 75px;
+}
