@@ -4,16 +4,10 @@ body {background-color: rgb(216, 211, 211)}
 
 header {height:400px;}
 
-#WhiteBox {
-    background-color: white;
-    width: 850px;
-    height:10%;
-    margin: 0 auto;
-    }
 
 #BlueBox {
     background-color: #00308F;
-    height: 40%;
+    height: 50%;
     width: 850px;
     margin:0 auto;
     }
@@ -24,8 +18,17 @@ header {height:400px;}
     width: 130px;
     height: 130px;
     position: Relative;
-    top: 50px;
+    top: 60px;
     left: 10px;
+    }
+
+#WhiteBox {
+    background-color: white;
+    width: 850px;
+    height:20%;
+    margin: 0 auto;
+    position: relative;
+    bottom:40px;
     }
 
 #HeaderText {
@@ -61,11 +64,29 @@ header {height:400px;}
     border-right: 0;
     }
 
-#ButtonBar {
-    height: 20px;
-    width: 100px;
-    border: 1px solid black;
+#mainbox {
+    width: 850px;
+    background-color: lightgray;
+    height: 500px;
+    margin: 0 auto;
     position: relative;
-    bottom: 70px;
-    left: 775px;
+    bottom: 175px;
+    }
+
+#LeftColumn {
+    width: 328px;
+    background-color: white;
+    height:100px;
+    margin-right: 10px;
+    margin-top:0;
+    margin-bottom:0;
+    margin-left: 0;
+    float: left;
+    }
+
+#RightColumn {
+    width: 512px;
+    background-color: white;
+    height:100px;
+    float: right;
     }
